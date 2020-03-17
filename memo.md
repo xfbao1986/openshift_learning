@@ -1,31 +1,40 @@
 # The following are other major advantages to using containers:
+```
 Low hardware footprint
 Environment isolation
 Quick deployment
 Multiple environment deployment
 Reusability
+```
 
 # From VServer, the idea of isolated processes further evolved and became formalized around the following features of the Linux kernel:
+```
 Namespaces
 Control groups (cgroups)
 Seccomp
 SELinux
+```
 
 # Kubernetes Features
+```
 Service discovery and load balancing
 Horizontal scaling
 Self-healing
 Automated rollout
 Secrets and configuration management
 Operators
+```
 
 # OpenShift Features
+```
 Integrated developer workflow
 Routes
 Metrics and logging
 Unified UI
+```
 
 # unix signal
+```
 Term Terminate the process.
 Core Terminate the process and generate a core dump.
 Ign  Signal is ignored.
@@ -52,8 +61,10 @@ SIGSTOP	   17,19,23	  Stop	        Stop process
 SIGTSTP	   18,20,24	  Stop	        Stop typed at tty
 SIGTTIN	   21,21,26	  Stop	        tty input for background process
 SIGTTOU	   22,22,27	  Stop	        tty output for background process
+```
 
 # podman
+```
 > podman search rhel
 > podman pull rhel
 > podman images
@@ -94,3 +105,4 @@ podman exec command starts an additional process inside an already running conta
 > podman exec 7ed6e671a600 cat /etc/hostname  (container ID)
 > podman exec my-httpd-container cat /etc/hostname  (container name)
 > podman exec -l cat /etc/hostname  (last container used in any command -l)
+```
